@@ -1,10 +1,12 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 html {
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     font-size: 20px;
 }
@@ -34,7 +36,7 @@ header {
 .nav-items a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: 'Bebas Neue', cursive;
     color: black;
     font-weight: 400;
     font-size: 95%;
@@ -48,6 +50,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+}
+#home p {
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
 }
 .row {
     width: 100%;
@@ -86,7 +92,7 @@ p {
     background-image: linear-gradient(45deg, lightSalmon, tomato);
     padding: 10px 25px;
     border-radius: 10px;
-    font-family: 'Arial';
+    font-family: 'Bebas Neue', cursive;
     color: white;
     font-weight: 400;
     letter-spacing: 1px;
@@ -107,7 +113,11 @@ p {
     background-image: url(images/about-me-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 50vh;
+}
+#about-me p {
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left-area {
@@ -152,26 +162,64 @@ p {
 }
 
 .project-area {
-    padding-top: 75px;
     width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .project-area img {
-    box-shadow: linear-gradient(to bottom, #6699ff 0%, #99ff99 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.00);
     transition: transform 0.5s;
     height: 250px;
     width: auto;
+    border-radius: 10px;
+    
+}
+/*--===============--Contact--=================--*/
+#contact{
+    
+}
+#contact h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-form{
+    box-sizing: border-box;
+    margin: auto;
+    width:50%;
+}
+
+#contact form input{
+    display: block;
+    width:300px;
+    height:50px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#contact form textarea{
+    display: block;
+    width:300px;
+    height:150px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    resize: none;
 }
 /*--===============--Footer--=================--*/
-.footer{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(245, 0, 0);
+.footer h4{
+    text-align: center;
+}
+/* .footer{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(216, 216, 216);
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} */
